@@ -3,3 +3,16 @@ h1, p {
 }
 
 body { margin: 0; background-color: black; color:yellow}
+
+.grid1 {
+   display:  grid;
+   grid-template-columns:  1fr 2fr 1fr;
+
+}
+
+.square {
+    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    text-align: center;
+
+}
