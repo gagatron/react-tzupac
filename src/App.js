@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import  tt from "./test.css" ;
+import log1 from './apples.jpg';
 
 const divStyle = {
   paddingLeft: '10%',
@@ -32,6 +33,10 @@ export default function App() {
       fkjaldfkjjasdlf kjadslkfjalsdkjflasdkjfladkjfldj kflkadjflaskdjfalsdkjfladksjf
       ladskjflasdkjfladsjflasdjkfljjdj</div>
       <p style={divStyle} >Start editing to see some magic happen :)</p>
-    </div>
+      <div>
+        <img src={log1} />
+        </div>
+
+      </div>
   );
 }
